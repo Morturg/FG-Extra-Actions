@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root version="3.1">
+	<properties>
+		<name>PFRPG - Extra Actions </name>
+		<version>1.0.0</version>
+		<author>Zygmunt Molotch</author>
+		<description>Extension</description>
+		<ruleset>
+			<name>CoreRPG</name>
+		</ruleset>
+		<ruleset>
+			<name>3.5E</name>
+		</ruleset>
+		<ruleset>
+			<name>PFRPG</name>
+		</ruleset>
+		<loadorder>200</loadorder>
+	</properties>
+	<announcement text="PFRPG - Extra Actions" font="emotefont"/>
+	<base>
+		<includefile source="campaign/record_char_actions.xml" />
+	</base>
+</root>
