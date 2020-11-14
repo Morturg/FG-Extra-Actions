@@ -63,9 +63,9 @@
 			<number_chargrappletotal name="grappleattackbonus" source="attackbonus.grapple.total">
 				<anchored to="shortcutframe" position="insidetopleft" offset="310,25" width="30" height="28" />
 			</number_chargrappletotal>
-			<label_fieldtop name="label_grapple">
+			<label_fieldtop name="label_cmb">
 				<anchored to="grappleattackbonus" />
-				<static textres="grapple" />
+				<static textres="cmb" />
 			</label_fieldtop>
 			
 			<number_charcmd name="cmd" source="ac.totals.cmd">
@@ -80,6 +80,10 @@
 				<anchored to="shortcutframe" position="insidetopright" offset="15,15" width="30" height="28" />
 				<frame name="acicon" />
 			</number_chartotalac>
+			<label_fieldtop name="label_AC">
+				<anchored to="ac" position="left" offset="5"/>
+				<static textres="ac" />
+			</label_fieldtop>
 			
 			<frame_char name="actionframe">
 				<bounds>15,65,-25,-5</bounds>

@@ -4,8 +4,8 @@
 	<properties>
 		<name>PFRPG - Extra Actions </name>
 		<version>1.0.0</version>
-		<author>Zygmunt Molotch</author>
-		<description>Extension</description>
+		<author>Zygmunt Molotch based of the CQFG Team's Actions v3.3.3_A</author>
+		<description>Extra action extension for Unity</description>
 		<ruleset>
 			<name>CoreRPG</name>
 		</ruleset>
@@ -17,7 +17,7 @@
 		</ruleset>
 		<loadorder>200</loadorder>
 	</properties>
-	<announcement text="PFRPG - Extra Actions" font="emotefont"/>
+	<announcement text="PFRPG - Extra Actions \nBy Zygmunt Molotch \nBased of the CQFG Team's Actions v3.3.3_A \n Required to use PFRPG-Loaded-Indicator and extra actions at the same time" font="emotefont"/>
 	<base>
 		<includefile source="campaign/record_char_actions.xml" />
 	</base>
