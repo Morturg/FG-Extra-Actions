@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!--
+"Fantasy Grounds" is a trademark of SmiteWorks USA, LLC.
+Copyright © 2004-2017 SmiteWorks USA, LLC ALL RIGHTS RESERVED.
+
+PFRPG ruleset v3.3.0 for FantasyGrounds
+Copyright © 2015 Smiteworks USA, LLC
+
+3.5E ruleset v3.3.0 for FantasyGrounds
+Copyright © 2015 Smiteworks USA, LLC
+
+CoreRPG ruleset v3.3.0 for FantasyGrounds
+Copyright © 2015 Smiteworks USA, LLC
+
+Extension créée par la Team CQFG
+Suivez notre travail sur : http://fb.me/CQFGTeam
+-->
+
+<!-- Notes de Mise à Jour
+
+v1.0 - Version initiale
+v1.1 - Changement du loadorder de 111 à 200
+
+-->
+
+<root version="3.1" logo="DD35_Fr.png">
+	<properties>
+		<name>PFRPG - Raccourcis Actions v3.3.3_A</name>
+		<version>3.3.3_A</version>
+		<author>CQFG Team</author>
+		<description>Extension</description>
+		<ruleset>
+			<name>CoreRPG</name>
+			<minrelease>3</minrelease>
+		</ruleset>
+		<ruleset>
+			<name>3.5E</name>
+			<minrelease>16</minrelease>
+		</ruleset>
+		<ruleset>
+			<name>PFRPG</name>
+			<minrelease>1</minrelease>
+		</ruleset>
+		<loadorder>200</loadorder>
+	</properties>
+	<announcement text="PFRPG - Raccourcis Actions (v3.3.3_A)\nTeam CQFG - Suivez notre travail sur :\nhttp://fb.me/CQFGTeam" font="emotefont" icon="PFRPGFr" />
+	<base>
+		<icon name="PFRPGFr" file="PFRPG_Fr.png" />
+		<includefile source="campaign/record_char_actions.xml" />
+	</base>
+</root>
