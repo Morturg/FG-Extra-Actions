@@ -3,7 +3,7 @@
 <root version="3.3" release="1">
 	<properties>
 		<name>PFRPG - Extra Actions</name>
-		<version>1.0</version>
+		<version>1.1</version>
 		<author>Zygmunt Molotch</author>
 		<description>Extension</description>
 		<loadorder>200</loadorder>
@@ -15,7 +15,7 @@
 		</ruleset>
 	</properties>
 	
-	<announcement text="https://www.fantasygrounds.com/forums/showthread.php?63600-PFRPG-Extra-Actions\nPFRPG - Extra Actions v1.0" font="emotefont"/>
+	<announcement text="https://www.fantasygrounds.com/forums/showthread.php?63600-PFRPG-Extra-Actions\nPFRPG - Extra Actions v1.1" font="emotefont"/>
 	
 	<base>
 		<includefile source="campaign/record_char_actions.xml" />
