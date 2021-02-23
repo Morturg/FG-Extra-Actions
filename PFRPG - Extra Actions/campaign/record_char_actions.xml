@@ -6,7 +6,7 @@
 -->
 
 <root>
-	<windowclass name="charsheet_actions" merge="join">>
+	<windowclass name="charsheet_actions" merge="join">
 		<script file="campaign/scripts/char_actions.lua" />
 		<sheetdata>
 		
@@ -81,7 +81,7 @@
 				<frame name="acicon" />
 			</number_chartotalac>
 			<label_fieldtop name="label_AC">
-				<anchored to="shortcutframe" position="insidetopright" offset="24,34" />
+				<anchored to="ac" position="left" offset="5"/>
 				<static textres="ac" />
 			</label_fieldtop>
 			
