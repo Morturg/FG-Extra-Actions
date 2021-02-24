@@ -81,7 +81,7 @@
 				<frame name="acicon" />
 			</number_chartotalac>
 			<label_fieldtop name="label_AC">
-				<anchored to="ac" position="left" offset="5"/>
+				<anchored to="shortcutframe" position="insidetopright" offset="24,34" />
 				<static textres="ac" />
 			</label_fieldtop>
 			
