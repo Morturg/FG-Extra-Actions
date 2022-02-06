@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root version="3.3" release="1">
+	<properties>
+		<name>PFRPG - Extra Actions</name>
+		<version>1.1</version>
+		<author>Zygmunt Molotch</author>
+		<description>Extension</description>
+		<loadorder>10</loadorder>
+		<ruleset>
+			<name>3.5E</name>
+		</ruleset>
+		<ruleset>
+			<name>PFRPG</name>
+		</ruleset>
+	</properties>
+	
+	<announcement text="https://www.fantasygrounds.com/forums/showthread.php?63600-PFRPG-Extra-Actions\nPFRPG - Extra Actions v1.1" font="emotefont"/>
+	
+	<base>
+		<includefile source="campaign/record_char_actions.xml" />
+	</base>
+</root>

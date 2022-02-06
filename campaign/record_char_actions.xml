@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.html file included with this distribution for 
+  attribution and copyright information.
+-->
+
+<root>
+	<windowclass name="charsheet_actions" merge="join">
+		<sheetdata>
+		
+			<frame_char name="shortcutframe" insertbefore="actionframe">
+				<bounds>15,0,480,65</bounds>
+			</frame_char>
+			
+			<number_charinit name="initiative" source="initiative.total">
+				<anchored to="shortcutframe" position="insidetopleft" offset="20,25" width="30" height="28" />
+			</number_charinit>
+			<label_fieldtop>
+				<anchored to="initiative" />
+				<static textres="init" />
+			</label_fieldtop>
+
+			<number_charsavefort name="fortitude" source="saves.fortitude.total">
+				<anchored to="shortcutframe" position="insidetopleft" offset="75,25" width="30" height="28" />
+			</number_charsavefort>
+			<label_fieldtop>
+				<anchored to="fortitude" />
+				<static textres="fort" />
+			</label_fieldtop>
+			<number_charsaveref name="reflex" source="saves.reflex.total">
+				<anchored to="shortcutframe" position="insidetopleft" offset="120,25" width="30" height="28" />
+			</number_charsaveref>
+			<label_fieldtop>
+				<anchored to="reflex" />
+				<static textres="ref" />
+			</label_fieldtop>
+			<number_charsavewill name="will" source="saves.will.total">
+				<anchored to="shortcutframe" position="insidetopleft" offset="165,25" width="30" height="28" />
+			</number_charsavewill>
+			<label_fieldtop>
+				<anchored to="will" />
+				<static textres="will" />
+			</label_fieldtop>
+			
+			<number_charmeleetotal name="meleemainattackbonus" source="attackbonus.melee.total">
+				<anchored to="shortcutframe" position="insidetopleft" offset="220,25" width="30" height="28" />
+			</number_charmeleetotal>
+			<label_fieldtop>
+				<anchored to="meleemainattackbonus" />
+				<static textres="char_label_melee" />
+			</label_fieldtop>
+			
+			<number_charrangedtotal name="rangedmainattackbonus" source="attackbonus.ranged.total">
+				<anchored to="shortcutframe" position="insidetopleft" offset="265,25" width="30" height="28" />
+			</number_charrangedtotal>
+			<label_fieldtop>
+				<anchored to="rangedmainattackbonus" />
+				<static textres="char_label_ranged" />
+			</label_fieldtop>	
+					
+			<number_chargrappletotal name="grappleattackbonus" source="attackbonus.grapple.total">
+				<anchored to="shortcutframe" position="insidetopleft" offset="310,25" width="30" height="28" />
+			</number_chargrappletotal>
+			<label_fieldtop name="label_cmb">
+				<anchored to="grappleattackbonus" />
+				<static textres="cmb" />
+			</label_fieldtop>
+			
+			<number_charcmd name="cmd" source="ac.totals.cmd">
+				<anchored to="shortcutframe" position="insidetopleft" offset="365,25" width="30" height="28" />
+			</number_charcmd>
+			<label_fieldtop name="label_cmd">
+				<anchored to="cmd" />
+				<static textres="cmd" />
+			</label_fieldtop>
+			
+			<number_chartotalac name="ac" source="ac.totals.general">
+				<anchored to="shortcutframe" position="insidetopright" offset="15,15" width="30" height="28" />
+				<frame name="acicon" />
+			</number_chartotalac>
+			<label_fieldtop name="label_AC">
+				<anchored to="shortcutframe" position="insidetopright" offset="24,34" />
+				<static textres="ac" />
+			</label_fieldtop>
+			
+			<frame_char name="actionframe">
+				<bounds>15,65,-25,-5</bounds>
+			</frame_char>
+			
+		</sheetdata>
+	</windowclass>
+</root>
