@@ -7,10 +7,9 @@
 
 <root>
 	<windowclass name="charsheet_actions" merge="join">
-		<script file="campaign/scripts/char_actions.lua" />
 		<sheetdata>
 		
-			<frame_char name="shortcutframe">
+			<frame_char name="shortcutframe" insertbefore="actionframe">
 				<bounds>15,0,480,65</bounds>
 			</frame_char>
 			
