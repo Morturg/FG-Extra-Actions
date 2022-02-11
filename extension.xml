@@ -2,7 +2,7 @@
 
 <root version="3.3" release="1">
 	<properties>
-		<name>PFRPG - Extra Actions</name>
+		<name>Feature: Extra Actions</name>
 		<version>1.1</version>
 		<author>Zygmunt Molotch</author>
 		<description>Extension</description>
