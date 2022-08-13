@@ -10,4 +10,4 @@ It has been tested with the Pathfinder 1e and D&D 3.5E rulesets.
 Adds Initiative, Saving Throws, Base Attacks, CMB/CMD, and AC to the Actions tab to speed up play.
 
 # Example Images
-![actions tab shortcuts](https://www.fantasygrounds.com/forums/attachment.php?attachmentid=41106&d=1605367871)
+![actions tab shortcuts](https://user-images.githubusercontent.com/1916835/184497407-b7364714-776e-405c-8891-b02542b9c9af.png)
