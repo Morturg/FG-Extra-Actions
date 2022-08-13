@@ -1,5 +1,6 @@
 # Extra Actions
 This extension adds commonly-used stats and rolls to the top of the Actions tab to save time while playing.
+Originally developed by [Markjan](https://www.fantasygrounds.com/forums/member.php?10744-Markjan) as [PFRPG - Raccourcis Actions](https://www.fantasygrounds.com/forums/showthread.php?40381-Combat-Shortcuts-actions-extension). Available on Forge with automatic updates [here](https://forge.fantasygrounds.com/shop/items/132/view).
 
 # Compatibility and Instructions
 This extension has been tested with [FantasyGrounds Unity](https://www.fantasygrounds.com/home/FantasyGroundsUnity.php) 4.2.2 (2022-06-07).
