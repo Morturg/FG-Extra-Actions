@@ -9,7 +9,7 @@
 	<windowclass name="charsheet_actions" merge="join">
 		<sheetdata>
 
-			<frame_char name="shortcutframe">
+			<frame_char name="shortcutframe" insertbefore="actionframe">
 				<bounds>15,0,-29,65</bounds>
 			</frame_char>
 			
