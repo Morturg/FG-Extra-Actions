@@ -1,0 +1,16 @@
+<root>
+<!-- Change height to compensate extra actions changes -->
+	 <template name="sub_charsheet_overview">
+		<subwindow>
+			<bounds>15,20,-30,110</bounds>
+			<activate />
+			<fastinit />
+			<class>charsheet_overview</class>
+		</subwindow>
+	</template>
+	<template name="sub_charsheet">
+		<subwindow>
+			<bounds>0,130,-1,-20</bounds>
+		</subwindow>
+	</template>
+</root>

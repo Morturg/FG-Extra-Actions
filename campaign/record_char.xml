@@ -6,11 +6,23 @@
 -->
 
 <root>
-	<windowclass name="charsheet_actions" merge="join">
-		<sheetdata>
+	<windowclass name="charsheet" merge="join">
+		<frame>charsheet</frame>
+		<placement>
+			<size width="525" height="633" />
+		</placement>
+		<sizelimits>
+			<minimum width="525" height="633" />
+			<dynamic />
+		</sizelimits>
+	</windowclass>
 
+	<windowclass name="charsheet_overview" merge="join">
+		<sheetdata>
 			<frame_char name="shortcutframe">
-				<bounds>15,0,-29,65</bounds>
+				<anchored position="insidebottomleft" offset="0,0" height="65">
+					<right />
+				</anchored>
 			</frame_char>
 			
 			<number_charinit name="initiative" source="initiative.total">
@@ -109,11 +121,6 @@
 				<anchored to="shortcutframe" position="insidetopright" offset="24,34" />
 				<static textres="ac" />
 			</label_fieldtop>
-
-			<frame_char name="actionframe">
-				<bounds>15,65,-25,-5</bounds>
-			</frame_char>
-
 		</sheetdata>
 	</windowclass>
 </root>
